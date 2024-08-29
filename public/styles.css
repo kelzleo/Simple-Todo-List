@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+   color: orangered;
+   padding: 3rem;
+   font-size: 3rem;
+
+}
+
+input{
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px orangered;
+    padding-left: 1rem;
+    color: orangered;
+    font-size: 1rem;
+    outline: none;
+}
+
+::placeholder{
+    color: orangered;
+}
+
+button{
+    width: 200px;
+    height: 2rem;
+    background: orangered;
+    border: none;
+}
+/* public/styles.css */
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8d7da; /* Light red background */
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    min-width: 800px;
+}
+
+.todo-value {
+    flex: 1;
+}
+
+.todo-delete {
+    background-color: #dc3545; /* Red background */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+.todo-delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
